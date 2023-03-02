@@ -1,14 +1,14 @@
 # Projeto App de Delivery 🍺🍸🥃
 
-Aplicação web full construída em grupo, aonde foi desenvolvido um sistema de delivery para uma distribuidora de bebidas, contendo as rotas de clientes, vendedores e admnistrador.
+Aplicação web full construída em grupo, onde foi desenvolvido um sistema de delivery para uma distribuidora de bebidas, contendo as rotas de clientes, vendedores e administrador.
 
-### BackEnd
+### Back-End
 
 * Construída com Node.js, Express, JavaScript, Sequelize, MySQL e Docker
 * Aplicando Arquitetura de Software, com as camadas de Modelo, Serviço e de Controladores
 * Testes de integração criados utilizando Mocha, Chai e Sinon
 
-### FrontEnd
+### Front-End
 
 * Construída com React, ContextAPI, React Hooks, Axios e CSS
 * Testes de integração criados utilizando React Testing Library e Jest 
@@ -22,14 +22,14 @@ Aplicação web full construída em grupo, aonde foi desenvolvido um sistema de 
 Para clonar o projeto:
 git clone git@github.com:Cleitonsub/delivery-app.git
 
-Para rodar a aplicação dockerizada, instalar as dependências e iniciar as aplicações:
+Para rodar a aplicação "dockerizada", instalar as dependências e iniciar as aplicações:
 <-- na raiz do projeto -->
 npm run compose:up // para subir o docker-compose
 npm run back:acess // para acessar o container do backend
 npm run db:reset // para criar as tabelas e popular no banco de caso
 exit // para sair do container do backend
 
-Para parar a aplicação dockerizada:
+Para parar a aplicação "dockerizada":
 <-- na raiz do projeto -->
 npm run compose:down // para parar os containers
 
@@ -40,12 +40,12 @@ npm test // para rodar o teste simplificado
 npm run test:coverage // para avaliar a cobertura dos testes
 exit // para sair do container do backend
 
-Para rodar o testes do FrontEnd:
+Para rodar os testes do FrontEnd:
 <-- na raiz do projeto -->
 npm run front:acess
 npm test // para rodar o teste simplificado
 npm run test:coverage // para avaliar a cobertura dos testes
-exit // para sair do container do frontend
+exit // para sair do container do front-end
 ```
 
 <br />
@@ -64,15 +64,15 @@ exit // para sair do container do frontend
 
 Rota do Cliente
 <p align="center">
-  <img src="https://github.com/Cleitonsub/delivery-app/blob/main/demo/customer.gif" alt="App de Delivery - Demostração"/>
+  <img src="https://github.com/Cleitonsub/delivery-app/blob/main/demo/customer.gif" alt="App de Delivery - Demonstração"/>
 </p>
 
 Rota do Vendedor
 <p align="center">
-  <img src="https://github.com/Cleitonsub/delivery-app/blob/main/demo/seller.gif" alt="App de Delivery - Demostração"/>
+  <img src="https://github.com/Cleitonsub/delivery-app/blob/main/demo/seller.gif" alt="App de Delivery - Demonstração"/>
 </p>
 
 Rota do Administrador
 <p align="center">
-  <img src="https://github.com/Cleitonsub/delivery-app/blob/main/demo/admin.gif" alt="App de Delivery - Demostração"/>
+  <img src="https://github.com/Cleitonsub/delivery-app/blob/main/demo/admin.gif" alt="App de Delivery - Demonstração"/>
 </p>
