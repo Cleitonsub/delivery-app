@@ -1,6 +1,6 @@
 # Projeto App de Delivery 🍺🍸🥃
 
-Aplicação web full construída em grupo, aonde foi desenvolvido um sistema de delivery para uma distribuidora de bebidas, contendo as rotas de clientes, vendedores e admistrador.
+Aplicação web full construída em grupo, aonde foi desenvolvido um sistema de delivery para uma distribuidora de bebidas, contendo as rotas de clientes, vendedores e admnistrador.
 
 ### BackEnd
 
